@@ -1,0 +1,232 @@
+
+/*=============================================
+=                  General                    =
+=============================================*/
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(#e66465, #33E6CC);
+    color:whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    
+        
+}
+
+button:focus {
+    outline: none;
+}
+
+.box{
+    position:absolute;
+    background:#33E6CC;
+    
+}
+
+/*=============================================
+=                  Header                    =
+=============================================*/
+
+#header{
+    width:100%;
+    margin: 0, auto;
+    opacity:0.4;
+}
+#header h1{
+    width:100%;
+    height:500px;
+    line-height:500px;
+    text-align: center;
+    font-style:normal;
+    font-size:200px;
+    
+}
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #e66465;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #33E6CC;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color:#e66465;
+    color: white;
+}
+
+/*=============================================
+=                  carousel                     =
+=============================================*/
+
+
+/*=============================================
+=                  Introduction                     =
+=============================================*/
+.circular--people img{
+  display:inline-block;
+  position:center center;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border-radius:50%;
+  
+}
+
+.circular--people{
+  padding:50px;
+  
+}
+
+ 
+.box{
+    position:relative;
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+  }
+
+  .container-1 input#search{
+    width: 300px;
+    height: 50px;
+    background: #33E6CC;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 40px;
+  }
+
+   
+  .container-1 button.icon{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    border: none;
+    background: #232833;
+    height: 50px;
+    width: 50px;
+    color: #4f5b66;
+    opacity: 0;
+    font-size: 10pt;
+   
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+  }
+   
+/*=============================================
+=                  button                     =
+=============================================*/
+
+
+
+button{
+    background-color: #e66465;
+    color:#33E6CC;
+    border: 0.5px solid #33E6CC; /* green */
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    border-radius: 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #33E6CC;
+    color:#e66465;
+}
+
+button:active {
+  background-color: #33E6CC;
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*=============================================
+=                 form                     =
+=============================================*/
+form{
+    position:relative;
+    margin-left:auto; 
+    margin-right:auto;
+    }
+/*=============================================
+=                 TABLE                     =
+=============================================*/
+table{
+    position:relative;
+    margin-left:auto; 
+    margin-right:auto;
+    }
+/*=============================================
+=                  video                     =
+=============================================*/
+
+/*=============================================
+=                  footer                     =
+=============================================*/
+
+#footer{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding: 30px;
+
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-end p {
+  font-size: 8px;
+  margin: 0;
+}
+
+/*=============================================
+=                  artprint a href                     =
+=============================================*/
